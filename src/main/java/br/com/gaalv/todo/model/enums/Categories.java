@@ -20,3 +20,4 @@ public enum Categories implements IdentifiableEnum{
     private final int id;
     private final String desc;
 }
+

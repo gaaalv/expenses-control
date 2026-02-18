@@ -17,7 +17,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class Expense {
 
-    private long id;
+    private Long id;
     private String name;
     private BigDecimal price;
     private PaymentMethod paymentMethod;
