@@ -2,18 +2,21 @@ package br.com.gaalv.todo;
 
 import br.com.gaalv.todo.controller.ExpenseController;
 import br.com.gaalv.todo.repository.impl.ExpenseMemoryRepository;
-import br.com.gaalv.todo.repository.ExpenseRepository;
 import br.com.gaalv.todo.service.ExpenseService;
 
+import java.util.Scanner;
+
 public class Main {
-    static void main() {
+    static void main(String[] args) {
 
-        ExpenseRepository repo = new ExpenseMemoryRepository();
+        Scanner sc = new Scanner(System.in);
 
-        ExpenseService service = new ExpenseService(repo);
-
-        ExpenseController controller = new ExpenseController(service);
+        var repository = new ExpenseMemoryRepository();
+        var service = new ExpenseService(repository);
+        var controller = new ExpenseController(service, sc);
 
         controller.start();
+
+        sc.close();
     }
 }
