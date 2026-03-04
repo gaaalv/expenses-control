@@ -3,6 +3,7 @@ package br.com.gaalv.todo.repository;
 import br.com.gaalv.todo.model.Expense;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 public interface ExpenseRepository {
@@ -13,11 +14,11 @@ public interface ExpenseRepository {
 
      void updateExpense(Expense expense);
 
-     List<Expense> readExpense();
+     List<Expense> findAll();
 
      int total();
 
-     Optional<Expense> searchById(long id);
+     Optional<Expense> findById(long id);
 
 
 }
