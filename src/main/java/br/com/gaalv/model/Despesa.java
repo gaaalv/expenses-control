@@ -1,7 +1,7 @@
-package main.java.br.com.gaalv.model;
+package br.com.gaalv.model;
 
-import main.java.br.com.gaalv.model.enums.TipoDespesa;
-import main.java.br.com.gaalv.model.enums.TipoPagamento;
+import br.com.gaalv.model.enums.TipoDespesa;
+import br.com.gaalv.model.enums.TipoPagamento;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

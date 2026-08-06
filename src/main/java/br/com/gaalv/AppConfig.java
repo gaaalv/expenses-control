@@ -1,14 +1,14 @@
-package main.java.br.com.gaalv;
+package br.com.gaalv;
 
-import main.java.br.com.gaalv.controller.Controller;
-import main.java.br.com.gaalv.model.Despesa;
-import main.java.br.com.gaalv.model.enums.TipoDespesa;
-import main.java.br.com.gaalv.model.enums.TipoPagamento;
-import main.java.br.com.gaalv.repository.Repository;
-import main.java.br.com.gaalv.repository.impl.InMemoryRepository;
-import main.java.br.com.gaalv.service.Service;
-import main.java.br.com.gaalv.view.ConsoleView;
-import main.java.br.com.gaalv.view.InputReader;
+import br.com.gaalv.controller.Controller;
+import br.com.gaalv.model.Despesa;
+import br.com.gaalv.model.enums.TipoDespesa;
+import br.com.gaalv.model.enums.TipoPagamento;
+import br.com.gaalv.repository.Repository;
+import br.com.gaalv.repository.impl.InMemoryRepository;
+import br.com.gaalv.service.Service;
+import br.com.gaalv.view.ConsoleView;
+import br.com.gaalv.view.InputReader;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

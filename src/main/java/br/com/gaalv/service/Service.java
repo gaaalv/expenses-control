@@ -1,7 +1,7 @@
-package main.java.br.com.gaalv.service;
+package br.com.gaalv.service;
 
-import main.java.br.com.gaalv.model.Despesa;
-import main.java.br.com.gaalv.repository.Repository;
+import br.com.gaalv.model.Despesa;
+import br.com.gaalv.repository.Repository;
 
 import java.util.List;
 import java.util.NoSuchElementException;

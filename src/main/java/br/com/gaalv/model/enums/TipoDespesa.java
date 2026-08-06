@@ -1,6 +1,6 @@
-package main.java.br.com.gaalv.model.enums;
+package br.com.gaalv.model.enums;
 
-import main.java.br.com.gaalv.view.enums.OpcaoMenu;
+import br.com.gaalv.view.enums.OpcaoMenu;
 
 public enum TipoDespesa implements OpcaoMenu {
     ALIMENTACAO(1, "Alimentação"),

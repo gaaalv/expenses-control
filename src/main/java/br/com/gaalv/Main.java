@@ -1,6 +1,6 @@
-package main.java.br.com.gaalv;
+package br.com.gaalv;
 
-import main.java.br.com.gaalv.view.ConsoleView;
+import br.com.gaalv.view.ConsoleView;
 
 public class Main {
     public static void main(String[] args) {

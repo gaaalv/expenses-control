@@ -1,4 +1,4 @@
-package main.java.br.com.gaalv.view.enums;
+package br.com.gaalv.view.enums;
 
 public enum EscolhaMenuPrincipal implements OpcaoMenu {
     ADICIONAR(1, "Adicionar"),

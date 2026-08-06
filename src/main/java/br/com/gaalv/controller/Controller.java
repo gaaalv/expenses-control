@@ -1,9 +1,9 @@
-package main.java.br.com.gaalv.controller;
+package br.com.gaalv.controller;
 
-import main.java.br.com.gaalv.model.Despesa;
-import main.java.br.com.gaalv.model.enums.TipoDespesa;
-import main.java.br.com.gaalv.model.enums.TipoPagamento;
-import main.java.br.com.gaalv.service.Service;
+import br.com.gaalv.model.Despesa;
+import br.com.gaalv.model.enums.TipoDespesa;
+import br.com.gaalv.model.enums.TipoPagamento;
+import br.com.gaalv.service.Service;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

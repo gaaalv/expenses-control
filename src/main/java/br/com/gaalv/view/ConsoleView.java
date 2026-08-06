@@ -1,11 +1,11 @@
-package main.java.br.com.gaalv.view;
+package br.com.gaalv.view;
 
-import main.java.br.com.gaalv.controller.Controller;
-import main.java.br.com.gaalv.model.Despesa;
-import main.java.br.com.gaalv.model.enums.TipoDespesa;
-import main.java.br.com.gaalv.model.enums.TipoPagamento;
-import main.java.br.com.gaalv.view.enums.EscolhaMenuPrincipal;
-import main.java.br.com.gaalv.view.enums.OpcaoMenu;
+import br.com.gaalv.controller.Controller;
+import br.com.gaalv.model.Despesa;
+import br.com.gaalv.model.enums.TipoDespesa;
+import br.com.gaalv.model.enums.TipoPagamento;
+import br.com.gaalv.view.enums.EscolhaMenuPrincipal;
+import br.com.gaalv.view.enums.OpcaoMenu;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

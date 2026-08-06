@@ -1,7 +1,7 @@
-package main.java.br.com.gaalv.repository.impl;
+package br.com.gaalv.repository.impl;
 
-import main.java.br.com.gaalv.model.Despesa;
-import main.java.br.com.gaalv.repository.Repository;
+import br.com.gaalv.model.Despesa;
+import br.com.gaalv.repository.Repository;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package main.java.br.com.gaalv.view.enums;
+package br.com.gaalv.view.enums;
 
 public interface OpcaoMenu {
     int getId();

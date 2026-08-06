@@ -1,6 +1,6 @@
-package main.java.br.com.gaalv.repository;
+package br.com.gaalv.repository;
 
-import main.java.br.com.gaalv.model.Despesa;
+import br.com.gaalv.model.Despesa;
 
 import java.util.List;
 import java.util.UUID;
